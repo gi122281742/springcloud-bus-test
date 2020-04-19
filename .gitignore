@@ -7,10 +7,11 @@
 *.iml
 out
 gen
-.gitignore
-pom.xml
 .mvn/
 mvnw
 mvnw.cmd
 sconfig-server/HELP.md
 sconfig-server/target/
+config-client/src/
+sconfig-server/src/
+src/
