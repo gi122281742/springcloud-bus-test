@@ -9,10 +9,8 @@ out
 gen
 .gitignore
 pom.xml
-src/
-config-client/.mvn/
-config-client/mvnw
-config-client/mvnw.cmd
-sconfig-server/.mvn/
-sconfig-server/mvnw
-sconfig-server/mvnw.cmd
+.mvn/
+mvnw
+mvnw.cmd
+sconfig-server/HELP.md
+sconfig-server/target/

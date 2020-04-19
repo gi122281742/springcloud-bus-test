@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gi122281742/spring-config.git
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+    password:
+    username:
+    host:
+    port: 5672
+server:
+  port: 7070
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+logging:
+  level:
+    root: info
+log:
+  level:
+    root: debug
