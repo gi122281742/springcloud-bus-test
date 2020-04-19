@@ -1,0 +1,18 @@
+
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+pom.xml
+src/
+config-client/.mvn/
+config-client/mvnw
+config-client/mvnw.cmd
+sconfig-server/.mvn/
+sconfig-server/mvnw
+sconfig-server/mvnw.cmd
